@@ -1,0 +1,30 @@
+#include<stdio.h>
+void main()
+{
+ int t,n,x,y,r,s=0;
+ printf("Enter the number of test cases: ");
+ scanf("%d",&t);
+ printf("Enter the n value: ");
+ scanf("%d",&n);
+ printf("Enter the x and y values: ");
+ scanf("%d\t%d",&x,&y);
+ while(t>0)
+{
+ while(n!=n)
+ {
+   r=n%10;
+   if(r==x)
+   {
+      s=r=y;
+   }
+   else
+   {
+      s=r;
+      n=n/10;
+   }
+   printf("%d",s);
+ }
+ t--;
+}
+ 
+}
