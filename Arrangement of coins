@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main ()
+{
+int n,count=1;
+ scanf("%d",&n);
+for(count=1;count<=n;count++)
+ {
+   n=n-count
+ }
+  printf("%d",count-1);
+}
