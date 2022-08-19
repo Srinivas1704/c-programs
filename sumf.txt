@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+ int arr[100],i,n,fact=1,sum=0;
+ printf("Enter the limit for array: ");
+ scanf("%d",&n);
+ for(i=0;i<n;i++)
+ {
+  scanf("%d",&arr[i]);
+ }
+ for(i=0;i<n;i++)
+ {
+  fact=fact*arr[i];
+  sum=sum+fact;
+ }
+ printf("Sum of factorials= %d",sum);
+}
