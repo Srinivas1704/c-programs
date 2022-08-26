@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+ char str[20];
+ int i,j,len=0,count=0;
+ gets(str);
+ len=strlen(str);
+   i=0;
+   j=len-1;
+     while(i<(len/2))
+     {
+      if(str[i]==str[j])
+      {
+          count++;
+       }
+      i++;
+      j--;
+     }
+   if(count>=len/2)
+   	printf("Palindrome");
+   else
+   	printf("not a Palindrome");
+}
