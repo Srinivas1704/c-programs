@@ -1,0 +1,8 @@
+int main() 
+{
+  char ch,str[10],sen[50];
+  scanf("%c %s \n %[^\n]s",&ch,str,sen);
+  printf("%c \n%s \n%s",ch,str,sen);
+       
+    return 0;
+}
