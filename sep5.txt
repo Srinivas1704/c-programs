@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+ int n,m;
+ printf("Enter n and m values to display numbers between n and m: ");
+ scanf("%d %d",&n,&m);
+ while(n<m-1)
+ {
+  n=n+1;
+  printf("%d",n);
+ }
+}
